@@ -1,0 +1,123 @@
+/* Блок Promo */
+.promo__img {
+  background-image: url("./../image/promo.png");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  border-bottom: 12px solid #2F653B;
+  top: -107px;
+
+  /* Картинка загораживает ссылки */
+}
+
+.promo__img h1 {
+  position: absolute;
+  top: 300px;
+  right: 100px;
+  font-size: 40px;
+  width: 300px;
+  text-align: center;
+  text-shadow: 15px 7px 20px 0px rgba(0, 0, 0, 0.43);
+}
+
+/* Успехи программы */
+.section-header {
+  font-size: 40px;
+  margin: 100px 0 40px 0;
+}
+
+.temp-name {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.temp-name h1 {
+  text-align: center;
+
+  text-shadow: 15px 7px 20px 0px rgba(0, 0, 0, 0.43);
+
+}
+
+.temp-name .courusel {
+
+}
+
+/* Направления исследований */
+
+.test-name2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.directions {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  justify-content: space-around;
+}
+
+.directions__description {
+  flex: 2;
+  background-color: rgba(38, 46, 47, 1);
+  font-size: 14px;
+  color: white;
+  padding: 40px 40px;
+  margin-right: 30px;
+}
+
+.directions h1 {
+  margin-bottom: 30px;
+  text-shadow: 15px 7px 20px 0px rgba(0, 0, 0, 0.43);
+
+}
+
+.directions__promo {
+  flex: 5;
+  background-image: url("./../image/image\ 47.png");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.direction__text {
+  height: 200px;
+  width: 400px;
+  background-color:rgba(38, 46, 47, 1);
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  padding: 40px;
+  color: white;
+}
+
+.news h1 {
+  text-align: center;
+}
+
+.news-filters-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0;
+  padding: 0 100px;
+}
+
+.news-filters-item {
+  width: 130px;
+  height: 130px;
+  background-color: black;
+}
+
+.news-items {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.news-item {
+  background-image: url("./../image/news_item.png");
+  height: 344px;
+  width: 294px;
+}

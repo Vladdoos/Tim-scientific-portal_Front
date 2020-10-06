@@ -1,0 +1,136 @@
+/*  */
+/* Базовые стили, применяемые к каждой странице проекта */
+/*  */
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  background-color: #A2D199;
+}
+
+a {
+  z-index: 20;
+}
+
+.container {
+  width: 1366px;
+  margin: auto;
+  background-color: #A2D199;
+}
+
+/* Header */
+.header {
+  height: 112px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 12px solid #2F653B;
+  padding: 0 80px;
+}
+
+.header__logo {
+  width: 98px;
+  height: 98px;
+}
+
+.header__nav ul, .footer__nav ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+  z-index: 1232323;
+}
+
+.header__nav ul li {
+  margin: 45px;
+  z-index: 123123213;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__search input {
+  width: 190px;
+  background-color: #E9F1DF;
+}
+
+.header__search::before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  margin-right: 7px;
+  background: url("./../image/search.png");
+}
+
+.header__autorization {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-top: 30px
+}
+
+.header__autorization img {
+  width: 44px;
+  position: absolute;
+  top: -45px;
+  right: -20px;
+}
+
+.header__autorization button {
+  border: none;
+  background-color: inherit;
+}
+
+/* main */
+.content {
+  min-height: calc(100vh - 377px)
+}
+
+/* footer */
+
+.footer {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  min-width: 1366px;;
+}
+
+.footer__nav {
+  width: 430px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav ul {
+  flex-wrap: wrap;
+  justify-content: center;
+  
+  padding: 0
+}
+
+.footer__nav ul li {
+  margin: 20px 50px;
+  text-align: center;
+  flex: 1
+}
+
+.timWidget {
+  /* Временно */
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+}
+
+/* Убираем стили ссылок в навигации */
+[class$="nav"] ul li a:link,
+[class$="nav"] ul li a:visited,
+[class$="nav"] ul li a:active,
+[class$="nav"] ul li a:hover {
+  text-decoration: none;
+  color: black
+}
